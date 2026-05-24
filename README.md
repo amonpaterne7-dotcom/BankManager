@@ -23,7 +23,6 @@ BankManager est une petite application Java orientée objet qui simule plusieurs
 - Java JDK 11 ou plus.
 - Un terminal ou un IDE Java comme IntelliJ IDEA, Eclipse ou VS Code.
 
-
 ## Exemple de fonctionnement
 
 L'application crée trois comptes bancaires, affiche leurs informations, puis modifie certains soldes pour vérifier l'accès aux attributs et l'héritage.
