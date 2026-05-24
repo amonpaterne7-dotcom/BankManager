@@ -1,4 +1,16 @@
-package PACKAGE_NAME;
+public class CheckingAccount extends BankAccount {
+    private double limite;
 
-public class CheckingAccount {
+    public CheckingAccount(String compte, double solde, double limite) {
+        super(compte, solde);
+        this.limite = limite;
+    }
+
+    public double getLimite() {
+        return limite;
+    }
+
+    public void setLimite(double limite) {
+        this.limite = limite;
+    }
 }
